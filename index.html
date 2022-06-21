@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+      <meta charset = "UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Snake game - Bruma Andrei</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <h1 id="title">SNAKE GAME</h1>
+      <h3 id="copyright" >Copyright &copy; 2022 Andrei Bruma</h3>
+      <h3 id="instructions">To control the snake, press these buttons or </br> the arrow keys on the keyboard!</h3>
+      <div id="score">Score: 0 </div>
+      <br/> 
+      <button id="start">Start</button>
+      <button id="restart" onclick="location.reload()">Restart game</button>
+      <br/> 
+      <button id="top" class="but">↑</button>
+      <section>
+         <button id="left" class="but">←</button>
+         <button id="bottom" class="but">↓</button>
+         <button id="right" class="but">→</button>
+      </section>
+      <canvas id="gametable" width="400" height="400"></canvas>
+      <script src="script.js"></script>
+   </body>
+</html>
